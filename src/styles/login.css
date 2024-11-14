@@ -1,0 +1,134 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f2f3f5;
+  margin: 0;
+}
+
+.si-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #002c4c;
+  position: relative;
+}
+
+.si-main-login-container {
+  display: flex;
+  margin-left: 4rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.si-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.si-auction-icon {
+  width: 40%;
+  height: auto;
+}
+
+.si-login-container {
+  background-color: #ffffff;
+  border-radius: 4vw;
+  padding: 2rem;
+  padding-right: 20rem;
+  padding-bottom: 0rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.si-set-title {
+  margin-left: -1rem;
+}
+
+.si-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #002c4c;
+  margin-bottom: -0.5rem;
+}
+
+.si-subtitle {
+  font-size: 1rem;
+  color: #002c4c;
+}
+
+.si-login-form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.si-label {
+  font-size: 1rem;
+  color: #002c4c;
+  margin-bottom: -0.5rem;
+}
+
+.si-input {
+  padding: 0.5rem;
+  border: 2px solid #0056b3;
+  background-color: transparent;
+  border-radius: 0.8rem;
+  font-size: 16px;
+  color: #002c4c;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.si-input:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.si-input::-moz-placeholder {
+  color: rgba(0, 44, 76, 0.7);
+  font-weight: bold;
+}
+
+.si-input::placeholder {
+  color: rgba(0, 44, 76, 0.7);
+  font-weight: bold;
+}
+
+.error-message {
+  color: #e02c2f;
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.si-signin-button {
+  padding: 0.5rem;
+  background-color: #d42023;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.si-signin-button:hover {
+  background-color: #e33434;
+}/*# sourceMappingURL=login.css.map */

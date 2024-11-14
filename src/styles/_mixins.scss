@@ -1,0 +1,25 @@
+
+@mixin center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin input-focus {
+    border-color: $secondary-color;
+    box-shadow: $focus-box-shadow;
+  }
+  
+  @mixin box-shadow($shadow: $box-shadow) {
+    box-shadow: $shadow;
+  }
+  
+  @mixin button-styles($bg-color, $color, $radius: $border-radius) {
+    background-color: $bg-color;
+    color: $color;
+    padding: 10px 20px;
+    border-radius: $radius;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
